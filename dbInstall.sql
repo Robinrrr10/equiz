@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS equiz;
+USE equiz;
+CREATE TABLE IF NOT EXISTS questions(question_id INT PRIMARY KEY AUTO_INCREMENT, question VARCHAR(1000), tag VARCHAR(10), level VARCHAR(20), is_used varchar(10));
