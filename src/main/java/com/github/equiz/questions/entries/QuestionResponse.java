@@ -2,6 +2,11 @@ package com.github.equiz.questions.entries;
 
 import java.util.List;
 
+/**
+ * 
+ * @author Robin
+ *
+ */
 public class QuestionResponse {
 	
 	private Status status;

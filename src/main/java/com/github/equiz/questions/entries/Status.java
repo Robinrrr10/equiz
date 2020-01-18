@@ -1,5 +1,10 @@
 package com.github.equiz.questions.entries;
 
+/**
+ * 
+ * @author Robin
+ *
+ */
 public class Status {
 
 	private int statusCode;

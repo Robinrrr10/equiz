@@ -4,12 +4,20 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * 
+ * @author Robin
+ *
+ */
 @SpringBootApplication
 @ComponentScan(basePackages = "com.github.equiz.questions")
 public class App 
 {
+	/**
+	 * Main method of spring boot app
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		System.out.println("in app main======================");
 		SpringApplication.run(App.class, args);
 	}
 }
